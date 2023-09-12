@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Title is => Swag Labs]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2023-09-12T18:23:05 IST" name="Default suite" finished-at="2023-09-12T18:23:11 IST" duration-ms="5980">
+    <groups>
+    </groups>
+    <test started-at="2023-09-12T18:23:05 IST" name="Default test" finished-at="2023-09-12T18:23:11 IST" duration-ms="5980">
+      <class name="SwagLabsTestcases.SwagLabLoginTestCases">
+        <test-method is-config="true" signature="ChromeDriver()[pri:0, instance:SwagLabsTestcases.SwagLabLoginTestCases@625732]" started-at="2023-09-12T18:23:05 IST" name="ChromeDriver" finished-at="2023-09-12T18:23:10 IST" duration-ms="5513" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ChromeDriver -->
+        <test-method signature="title()[pri:0, instance:SwagLabsTestcases.SwagLabLoginTestCases@625732]" started-at="2023-09-12T18:23:10 IST" name="title" finished-at="2023-09-12T18:23:10 IST" duration-ms="25" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Title is => Swag Labs]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- title -->
+        <test-method signature="UsernameSwaglabs()[pri:1, instance:SwagLabsTestcases.SwagLabLoginTestCases@625732]" started-at="2023-09-12T18:23:10 IST" name="UsernameSwaglabs" finished-at="2023-09-12T18:23:11 IST" duration-ms="245" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UsernameSwaglabs -->
+        <test-method signature="PasswordSwaglabs()[pri:2, instance:SwagLabsTestcases.SwagLabLoginTestCases@625732]" started-at="2023-09-12T18:23:11 IST" name="PasswordSwaglabs" finished-at="2023-09-12T18:23:11 IST" duration-ms="136" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PasswordSwaglabs -->
+      </class> <!-- SwagLabsTestcases.SwagLabLoginTestCases -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
