@@ -5,9 +5,8 @@
     <classes>
       <class name="SwagLabsTestcases.SwagLabLoginTestCases">
         <methods>
-          <include name="PasswordSwaglabs"/>
+          <include name="ScreenSHOT"/>
           <include name="ChromeDriver"/>
-          <include name="UsernameSwaglabs"/>
         </methods>
       </class> <!-- SwagLabsTestcases.SwagLabLoginTestCases -->
     </classes>

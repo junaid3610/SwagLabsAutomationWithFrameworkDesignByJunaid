@@ -26,7 +26,7 @@ public class ChromeBrowser {
 		@Test
 		public void title()
 		{
-			System.out.println(driver.getTitle());
+			System.out.println("Title is => "+driver.getTitle());
 			Reporter.log("Title is => "+driver.getTitle());
 		}
 		
