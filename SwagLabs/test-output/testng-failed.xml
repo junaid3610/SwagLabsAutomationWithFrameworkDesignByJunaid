@@ -3,12 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="SwagLabsTestcases.SwagLabLoginTestCases">
+      <class name="SwagLabsTestcases.SwagLabsProductTestcases">
         <methods>
-          <include name="ScreenSHOT"/>
+          <include name="ClickOnSauceLabsBackPack"/>
           <include name="ChromeDriver"/>
+          <include name="AddToCart"/>
         </methods>
-      </class> <!-- SwagLabsTestcases.SwagLabLoginTestCases -->
+      </class> <!-- SwagLabsTestcases.SwagLabsProductTestcases -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

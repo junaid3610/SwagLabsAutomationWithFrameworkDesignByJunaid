@@ -17,6 +17,16 @@ public class SwagLabLoginPage {
 	@FindBy(xpath="//input[@id=\"password\"]")
 	private WebElement pswrd;
 	
+	// SwagLabs Image
+	@FindBy(xpath="//img[@class=\"bot_column\"]")
+	private WebElement img;
+	
+	// click on Login Button of Swaglabs
+	@FindBy(xpath="//input[@id=\"login-button\"]")
+	private WebElement login;
+	
+	
+	
 	
 //  =============
 	
@@ -47,9 +57,18 @@ public class SwagLabLoginPage {
 	}
 	
 	
+	// check image is present or not
+	public void image()
+	{
+		img.isDisplayed();
+	}
 	
 	
-	
+	// click on Login Button
+	public void Login()
+	{
+		login.click();
+	}
 	
 	
 	

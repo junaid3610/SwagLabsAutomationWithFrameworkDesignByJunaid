@@ -32,10 +32,23 @@ public class SwagLabLoginTestCases extends ChromeBrowser {
 		s.password();
 	}
 	
+	// Swaglabs image 
+	@Test(priority = 3)
+	public void DisplayImage()
+	{
+		SwagLabLoginPage s = new SwagLabLoginPage(driver);
+		s.image();
+	}
 	
 	
+	// click on login button
 	
-	
+	@Test(priority = 4)
+	public void ClickOnLoginButton()
+	{
+		SwagLabLoginPage s = new SwagLabLoginPage(driver);
+		s.Login();
+	}
 	
 	
 	
