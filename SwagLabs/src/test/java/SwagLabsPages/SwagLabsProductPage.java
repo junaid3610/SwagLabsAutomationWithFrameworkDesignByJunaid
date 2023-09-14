@@ -110,7 +110,8 @@ public class SwagLabsProductPage {
 			}
 			
 		}
-		catch (Exception e) {
+		catch (Exception e) 
+		{
 			e.printStackTrace();
 		}
 		
