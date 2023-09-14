@@ -20,6 +20,7 @@ public class ChromeBrowser {
 			opt.addArguments("--remote-allow-origins=*");		
 			driver = new ChromeDriver(opt);
 			driver.get("https://www.saucedemo.com/v1/");
+			driver.manage().window().maximize();
 			return driver;
 		}
 		

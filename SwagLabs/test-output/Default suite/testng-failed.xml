@@ -5,9 +5,8 @@
     <classes>
       <class name="SwagLabsTestcases.SwagLabsProductTestcases">
         <methods>
-          <include name="ClickOnSauceLabsBackPack"/>
           <include name="ChromeDriver"/>
-          <include name="AddToCart"/>
+          <include name="ClickOnLogOut"/>
         </methods>
       </class> <!-- SwagLabsTestcases.SwagLabsProductTestcases -->
     </classes>

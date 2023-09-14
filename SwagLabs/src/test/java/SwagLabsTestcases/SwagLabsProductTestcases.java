@@ -31,16 +31,44 @@ public class SwagLabsProductTestcases extends SwagLabLoginTestCases {
 	
 	// click on remove button from add to cart
 	@Test(priority = 8)
-	public void ClickOnRemoveButton()
+	public void ClickOnRemoveButton() throws InterruptedException
 	{
 		SwagLabsProductPage s = new SwagLabsProductPage(driver);
 		s.removebtn();
 	}
 	
+	// come back to continue shopping page
 	
+	@Test(priority = 9)
+	public void ClickOnContinueShoppingButton()
+	{
+		SwagLabsProductPage s = new SwagLabsProductPage(driver);
+		s.clickoncontshop();
+	}
 	
+	//count the total products on product page
+	@Test(priority = 10)
+	public void CounTheProducts()
+	{
+		SwagLabsProductPage s = new SwagLabsProductPage(driver);
+		s.countprod();
+	}
 	
+	// click on meno button
+	@Test(priority = 11)
+	public void ClickOnMenuBar()
+	{
+		SwagLabsProductPage s = new SwagLabsProductPage(driver);
+		s.clickonmenu();
+	}
 	
+	// Click On Logout to application
+	@Test(priority = 12)
+	public void ClickOnLogOut()
+	{
+		SwagLabsProductPage s = new SwagLabsProductPage(driver);
+		s.LOGout();
+	}
 	
 	
 	
