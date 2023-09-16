@@ -73,12 +73,12 @@ public class BasicExtentReports {
 	}
 	
 	
-	// creating one method to write al log information of test result this is mandatory method
+	// creating one method to write all log information of test result this is mandatory method
 	
 	@AfterTest
 	public void tearDown()
 	{
-		reports.flush();
+		reports.flush();                       // this is mandatory method to log result in extents report
 	}
 	
 	
