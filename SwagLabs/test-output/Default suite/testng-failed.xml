@@ -5,8 +5,22 @@
     <classes>
       <class name="SwagLabsTestcases.SwagLabsProductTestcases">
         <methods>
+          <include name="PasswordSwaglabs"/>
+          <include name="ClickOnLoginButton"/>
           <include name="ChromeDriver"/>
           <include name="ClickOnLogOut"/>
+          <include name="UsernameSwaglabs"/>
+          <include name="AddToCart"/>
+          <include name="ClickOnMenuBar"/>
+          <include name="DisplayImage"/>
+          <include name="getTestResult"/>
+          <include name="CheckCart"/>
+          <include name="ClickOnContinueShoppingButton"/>
+          <include name="ClickOnSauceLabsBackPack"/>
+          <include name="startReport"/>
+          <include name="tearDown"/>
+          <include name="ClickOnRemoveButton"/>
+          <include name="CounTheProducts"/>
         </methods>
       </class> <!-- SwagLabsTestcases.SwagLabsProductTestcases -->
     </classes>
